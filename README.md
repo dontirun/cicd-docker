@@ -1,2 +1,2 @@
 # cicd-docker
-Alpine Docker image configured with common tools for CI/CD tasks
+Alpine Docker image configured with common tools for CI/CD tasks with CloudFormation templates
