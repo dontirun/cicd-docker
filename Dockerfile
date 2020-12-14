@@ -11,7 +11,8 @@ RUN apk add python3 \
     py3-pip \
     python3-dev
 RUN apk add ruby \
-    ruby ruby-dev
+    ruby-dev \
+    ruby-json
 RUN apk add git
 RUN pip3 install --ignore-installed pre-commit 
 RUN gem install cfn-nag
